@@ -1,0 +1,32 @@
+To show fcfs and sjf... input BT and arival time, output = average waiting time;
+
+FCFS = will be based on arival time; 
+algorithm
+
+get the no.of jobs;
+get the arival and burst time of all the jobs;
+
+4 process le liye
+
+wt =0;
+
+at =2 7 4 8
+
+bt =3 1 7 3
+
+fcfs - at sort karo fir jo shortest at wala ho usse compute karo
+
+if(ar > total) {
+wt= at - wt;
+}
+if(x==0) {
+total time =0 + at + bt; 
+}
+else if(at > wt && x!=0 ){
+    totaltime = total + bt + (at- total);
+}
+else {
+    totaltime = total + bt
+}
+
+wt=0;
